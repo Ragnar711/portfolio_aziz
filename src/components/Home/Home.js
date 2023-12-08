@@ -13,29 +13,30 @@ function Home() {
                 <Container className="home-content">
                     <Row>
                         <Col md={7} className="home-header">
-                            <h1
-                                style={{ paddingBottom: 15 }}
-                                className="heading"
-                            >
-                                Hi There!{" "}
-                                <span
-                                    className="wave"
-                                    role="img"
-                                    aria-labelledby="wave"
-                                    alt="wave"
+                            <div className="greeting-container">
+                                <h1
+                                    className="heading"
+                                    style={{ paddingBottom: 15 }}
                                 >
-                                    👋🏻
-                                </span>
-                            </h1>
+                                    Hey, Wanderer!{" "}
+                                    <span
+                                        className="wave"
+                                        role="img"
+                                        aria-labelledby="wave"
+                                        alt="wave"
+                                    >
+                                        👋🏻
+                                    </span>
+                                </h1>
 
-                            <h1 className="heading-name">
-                                {" "}
-                                I'M
-                                <strong className="main-name">
-                                    {" "}
-                                    Mohamed Aziz Bechaib
-                                </strong>
-                            </h1>
+                                <h1 className="heading-name">
+                                    I go by{" "}
+                                    <strong className="main-name">
+                                        Mohamed Aziz Bechaib
+                                    </strong>{" "}
+                                    .
+                                </h1>
+                            </div>
 
                             <div style={{ padding: 50, textAlign: "left" }}>
                                 <Type />

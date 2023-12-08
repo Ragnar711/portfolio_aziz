@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/me.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -27,7 +27,7 @@ function Home2() {
                                 <b className="purple">
                                     HTML, CSS, and Javascript
                                 </b>
-                            </i>
+                            </i>{" "}
                             , my expertise extends to encompassing the entire
                             MERN stack, utilizing technologies such as
                             <i>
@@ -83,7 +83,7 @@ function Home2() {
                             , and{" "}
                             <i>
                                 <b className="purple">Next.js</b>
-                            </i>
+                            </i>{" "}
                             .
                         </p>
                     </Col>
@@ -117,7 +117,7 @@ function Home2() {
                             </li>
                             <li className="social-icons">
                                 <a
-                                    href="www.linkedin.com/in/medazizbechaib"
+                                    href="https://www.linkedin.com/in/medazizbechaib"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
