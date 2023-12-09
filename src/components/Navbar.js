@@ -11,14 +11,14 @@ import {
 } from "react-icons/ai";
 
 function NavBar() {
-    const [expand, updateExpanded] = useState(false);
-    const [navColour, updateNavbar] = useState(false);
+    const [expand, setExpand] = useState(false);
+    const [navbar, setNavbar] = useState(false);
 
     function scrollHandler() {
         if (window.scrollY >= 20) {
-            updateNavbar(true);
+            setNavbar(true);
         } else {
-            updateNavbar(false);
+            setNavbar(false);
         }
     }
 
@@ -29,13 +29,13 @@ function NavBar() {
             expanded={expand}
             fixed="top"
             expand="md"
-            className={navColour ? "sticky" : "navbar"}
+            className={navbar ? "sticky" : "navbar"}
         >
             <Container>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
                     onClick={() => {
-                        updateExpanded(expand ? false : "expanded");
+                        setExpand(expand ? false : "expanded");
                     }}
                 >
                     <span></span>
@@ -48,7 +48,7 @@ function NavBar() {
                             <Nav.Link
                                 as={Link}
                                 to="/"
-                                onClick={() => updateExpanded(false)}
+                                onClick={() => setExpand(false)}
                             >
                                 <AiOutlineHome
                                     style={{ marginBottom: "2px" }}
@@ -61,7 +61,7 @@ function NavBar() {
                             <Nav.Link
                                 as={Link}
                                 to="/about"
-                                onClick={() => updateExpanded(false)}
+                                onClick={() => setExpand(false)}
                             >
                                 <AiOutlineUser
                                     style={{ marginBottom: "2px" }}
@@ -74,7 +74,7 @@ function NavBar() {
                             <Nav.Link
                                 as={Link}
                                 to="/project"
-                                onClick={() => updateExpanded(false)}
+                                onClick={() => setExpand(false)}
                             >
                                 <AiOutlineFundProjectionScreen
                                     style={{ marginBottom: "2px" }}
@@ -87,7 +87,7 @@ function NavBar() {
                             <Nav.Link
                                 as={Link}
                                 to="/resume"
-                                onClick={() => updateExpanded(false)}
+                                onClick={() => setExpand(false)}
                             >
                                 <CgFileDocument
                                     style={{ marginBottom: "2px" }}
