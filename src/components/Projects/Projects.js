@@ -28,13 +28,15 @@ function Projects() {
                             ghLink="https://github.com/Ragnar711/ToDo.git"
                             demoLink="https://to-do-omega-six.vercel.app/"
                         />
+                    </Col>
+                    <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={MES}
                             isBlog={false}
                             title="Manufacturing Execution System"
                             description="Computerized system that manages and tracks manufacturing processes in real-time to improve efficiency, quality, and overall performance. Use 9898 for matricule, and 1234 for password"
                             ghLink="https://github.com/Ragnar711/MES-demo.git"
-                            demoLink="https://mes-demo-r84s-aw5ogjn64-ragnar711.vercel.app/login"
+                            demoLink="https://mes-demo-r84s.vercel.app"
                         />
                     </Col>
                 </Row>
