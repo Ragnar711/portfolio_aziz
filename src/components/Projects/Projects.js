@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/todo.jpg";
+import todo from "../../Assets/Projects/todo.jpg";
+import MES from "../../Assets/Projects/MES.PNG";
 
 function Projects() {
     return (
@@ -20,12 +21,20 @@ function Projects() {
                 >
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={chatify}
+                            imgPath={todo}
                             isBlog={false}
                             title="ToDo App"
                             description="Streamline your task management with this straightforward To-Do app, built using Svelte and styled with practicality in mind using Tailwind CSS."
                             ghLink="https://github.com/Ragnar711/ToDo.git"
                             demoLink="https://to-do-omega-six.vercel.app/"
+                        />
+                        <ProjectCard
+                            imgPath={MES}
+                            isBlog={false}
+                            title="Manufacturing Execution System"
+                            description="Computerized system that manages and tracks manufacturing processes in real-time to improve efficiency, quality, and overall performance. Use 9898 for matricule, and 1234 for password"
+                            ghLink="https://github.com/Ragnar711/MES-demo.git"
+                            demoLink="https://mes-demo-r84s-aw5ogjn64-ragnar711.vercel.app/login"
                         />
                     </Col>
                 </Row>
