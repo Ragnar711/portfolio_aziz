@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import todo from "../../Assets/Projects/todo.jpg";
 import MES from "../../Assets/Projects/MES.PNG";
+import fablab from "../../Assets/Projects/fablab.PNG";
 
 function Projects() {
     return (
@@ -37,6 +38,16 @@ function Projects() {
                             description="Computerized system that manages and tracks manufacturing processes in real-time to improve efficiency, quality, and overall performance. Use 9898 for matricule, and 1234 for password"
                             ghLink="https://github.com/Ragnar711/MES-demo.git"
                             demoLink="https://mes-demo-r84s.vercel.app"
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={fablab}
+                            isBlog={false}
+                            title="FabLab Website"
+                            description="Unfinished website I started creating for FabLab club in my university"
+                            ghLink="https://github.com/Ragnar711/fablab.git"
+                            demoLink="https://fablab-one.vercel.app/"
                         />
                     </Col>
                 </Row>
