@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import todo from "../../Assets/Projects/todo.jpg";
-import MES from "../../Assets/Projects/MES.PNG";
 import fablab from "../../Assets/Projects/fablab.PNG";
 
 function Projects() {
@@ -28,16 +27,6 @@ function Projects() {
                             description="Streamline your task management with this straightforward To-Do app, built using Svelte and styled with practicality in mind using Tailwind CSS."
                             ghLink="https://github.com/Ragnar711/ToDo.git"
                             demoLink="https://to-do-omega-six.vercel.app/"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={MES}
-                            isBlog={false}
-                            title="Manufacturing Execution System"
-                            description="Computerized system that manages and tracks manufacturing processes in real-time to improve efficiency, quality, and overall performance. Use 9898 for matricule, and 1234 for password"
-                            ghLink="https://github.com/Ragnar711/MES-demo.git"
-                            demoLink="https://mes-demo-r84s.vercel.app"
                         />
                     </Col>
                     <Col md={4} className="project-card">
