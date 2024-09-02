@@ -8,6 +8,7 @@ import {
     DiGit,
     DiHtml5,
     DiCss3,
+    DiPython,
 } from "react-icons/di";
 import {
     SiNextdotjs,
@@ -19,58 +20,77 @@ import {
     SiPrisma,
     SiJest,
     SiTypescript,
+    SiSocketdotio,
+    SiLinux,
+    SiAndroid,
+    SiIos,
 } from "react-icons/si";
 
 function Techstack() {
     return (
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
             <Col xs={4} md={2} className="tech-icons">
-                <DiHtml5 />
+                <DiHtml5 color="white" />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiCss3 />
+                <DiCss3 color="white" />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiJavascript1 />
+                <DiJavascript1 color="white" />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiTypescript />
+                <SiTypescript color="white" />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiGit />
+                <DiPython color="white" />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiReact />
+                <DiGit color="white" />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiNextdotjs />
+                <DiReact color="white" />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiNodejs />
+                <SiNextdotjs color="white" />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiExpress />
+                <DiNodejs color="white" />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiMongodb />
+                <SiExpress color="white" />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiMysql />
+                <DiMongodb color="white" />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiPostgresql />
+                <SiMysql color="white" />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiPrisma />
+                <SiPostgresql color="white" />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiJest />
+                <SiPrisma color="white" />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiDocker />
+                <SiJest color="white" />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <SiKubernetes />
+                <SiDocker color="white" />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiKubernetes color="white" />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiSocketdotio color="white" />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiLinux color="white" />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiAndroid color="white" />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiIos color="white" />
             </Col>
         </Row>
     );

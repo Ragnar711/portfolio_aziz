@@ -11,10 +11,19 @@ function Projects() {
             <Particle />
             <Container>
                 <h1 className="project-heading">
-                    Recent <strong className="purple">Projects</strong>
+                    Projets <strong className="purple">Récents</strong>
                 </h1>
                 <p style={{ color: "white" }}>
-                    Explore some of the recent projects I've been involved in.
+                    Découvrez quelques-uns des projets récents sur lesquels nous
+                    avons travaillé. En tant qu'équipe passionnée, nous nous
+                    spécialisons dans la création de solutions innovantes et
+                    efficaces, qu'il s'agisse de développement web ou mobile.
+                    Nos projets reflètent notre expertise dans des technologies
+                    modernes telles que React.js, Next.js, et React Native,
+                    ainsi que notre engagement envers des pratiques de
+                    développement robustes. Nous utilisons des outils comme
+                    Docker et Kubernetes pour assurer des déploiements fluides
+                    et des solutions évolutives.
                 </p>
                 <Row
                     style={{ justifyContent: "center", paddingBottom: "10px" }}
@@ -23,8 +32,8 @@ function Projects() {
                         <ProjectCard
                             imgPath={todo}
                             isBlog={false}
-                            title="ToDo App"
-                            description="Streamline your task management with this straightforward To-Do app, built using Svelte and styled with practicality in mind using Tailwind CSS."
+                            title="Application ToDo"
+                            description="Optimisez la gestion de vos tâches avec cette application To-Do simple, construite en utilisant Svelte et stylisée avec Tailwind CSS."
                             ghLink="https://github.com/Ragnar711/ToDo.git"
                             demoLink="https://to-do-omega-six.vercel.app/"
                         />
@@ -33,8 +42,8 @@ function Projects() {
                         <ProjectCard
                             imgPath={fablab}
                             isBlog={false}
-                            title="FabLab Website"
-                            description="Unfinished website I started creating for FabLab club in my university"
+                            title="Site Web FabLab"
+                            description="Site web inachevé que j'ai commencé à créer pour le club FabLab de mon université."
                             ghLink="https://github.com/Ragnar711/fablab.git"
                             demoLink="https://fablab-one.vercel.app/"
                         />
