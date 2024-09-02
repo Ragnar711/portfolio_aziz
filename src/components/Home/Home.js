@@ -36,8 +36,8 @@ import sd7 from "../../Assets/Projects/sd7.jpg";
 const membresDeLEquipe = [
     {
         nom: "Eya Eloued",
-        github: "https://github.com/Developer1",
-        linkedin: "https://www.linkedin.com/in/developer1",
+        github: "https://github.com/elouedeya",
+        linkedin: "https://www.linkedin.com/in/eya-eloued-811388181/",
         image: eya,
     },
     {
