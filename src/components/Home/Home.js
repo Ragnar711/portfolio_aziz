@@ -9,7 +9,6 @@ import Techstack from "../About/Techstack";
 import Toolstack from "../About/Toolstack";
 import ProjectCard from "../Projects/ProjectCards";
 import Particle from "../Particle";
-import todo from "../../Assets/Projects/todo.jpg";
 import fablab from "../../Assets/Projects/fablab.PNG";
 import mes from "../../Assets/Projects/mes.jpg";
 import mes0 from "../../Assets/Projects/mes0.jpg";
@@ -168,17 +167,6 @@ function Accueil() {
                         >
                             <Col md={4} className="project-card">
                                 <ProjectCard
-                                    imgPath={todo}
-                                    images={[todo]} // Ajouter plus d'images ici
-                                    isBlog={false}
-                                    title="Application ToDo"
-                                    ghLink="https://github.com/Ragnar711/ToDo.git"
-                                    demoLink="https://to-do-omega-six.vercel.app/"
-                                    description="Une application ToDo complète avec des fonctionnalités avancées."
-                                />
-                            </Col>
-                            <Col md={4} className="project-card">
-                                <ProjectCard
                                     imgPath={fablab}
                                     images={[fablab]} // Ajouter plus d'images ici
                                     isBlog={false}
@@ -191,18 +179,19 @@ function Accueil() {
                             <Col md={4} className="project-card">
                                 <ProjectCard
                                     imgPath={mes}
-                                    images={[
-                                        mes0,
-                                        mes1,
-                                        mes2,
-                                        mes,
-                                        mes6,
-                                        mes7,
-                                        mes8,
-                                    ]} // Plusieurs images pour ce projet
+                                    images={[mes0, mes1, mes2, mes]} // Plusieurs images pour ce projet
                                     isBlog={false}
-                                    title="Système d'Exécution de la Fabrication"
+                                    title="Système d'Exécution de la Fabrication Module Manager"
                                     demoLink="https://manufacturing-execution-system.onrender.com/login"
+                                    description="Un système pour gérer les processus de fabrication."
+                                />
+                            </Col>
+                            <Col md={4} className="project-card">
+                                <ProjectCard
+                                    imgPath={mes6}
+                                    images={[mes6, mes7, mes8]} // Plusieurs images pour ce projet
+                                    isBlog={false}
+                                    title="Système d'Exécution de la Fabrication Module Opérateur"
                                     description="Un système pour gérer les processus de fabrication."
                                 />
                             </Col>
